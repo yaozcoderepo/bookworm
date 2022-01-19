@@ -47,7 +47,6 @@ const ProfileSchema = new mongoose.Schema({
             },
             to: {
                 type: String,
-                required: true,
             },
             current: {
                 type: Boolean,
@@ -78,11 +77,10 @@ const ProfileSchema = new mongoose.Schema({
             },
             to: {
                 type: Date,
-                required: true,
             },
             current: {
                 type: Boolean,
-                required: true,
+                default: false,
             },
             description: {
                 type: String,
@@ -96,7 +94,7 @@ const ProfileSchema = new mongoose.Schema({
         twitter: {
             type: String,
         },
-        facebool: {
+        facebook: {
             type: String,
         },
         linkedin: {
