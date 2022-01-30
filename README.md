@@ -14,7 +14,7 @@ After cloning the application source code to your local machine, navigate to the
 cd bookworm
 ```
 
-Here, I use Mongo DB server provided by Mongo DB Atlas, so if you want to use it, first replace the `username` and `password` with yours in the `config/default.json` file.
+Here, I use Mongo DB server provided by Mongo DB Atlas, so if you want to use it, first replace the `mongoURI` and `jwtSecret` with yours in the `config/default.json` file.
 
 Afterward, type the following command
 
