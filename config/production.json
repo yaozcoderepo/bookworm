@@ -1,4 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://foliage:qazwsxedc@cluster0.k2p2f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "***REMOVED***"
-}
