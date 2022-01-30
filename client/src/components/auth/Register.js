@@ -33,7 +33,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
     return (
         <Fragment>
-            <h1 className="large text-primary">Sign Up</h1>
+            <h1 className="large text-primary">Register</h1>
             <p className="lead">
                 <i className="fas fa-user"></i> Create Your Account
             </p>
@@ -57,10 +57,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                         onChange={onChange}
                         required
                     />
-                    <small className="form-text">
-                        This site uses Gravatar so if you want a profile image,
-                        use a Gravatar email
-                    </small>
                 </div>
                 <div className="form-group">
                     <input

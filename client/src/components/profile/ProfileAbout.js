@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const ProfileAbout = ({
     profile: {
         bio,
-        skills,
+        books,
         user: { name },
     },
 }) => {
@@ -20,12 +20,12 @@ const ProfileAbout = ({
                 </Fragment>
             )}
 
-            <h2 className="text-primary">Skill Set</h2>
+            <h2 className="text-primary">Favorite Books</h2>
             <div className="skills">
-                {skills &&
-                    skills.map((skill, index) => (
+                {books &&
+                    books.map((book, index) => (
                         <div key={index} className="p-1">
-                            <i className="fa fa-check"></i> {skill}
+                            <i className="fa fa-check"></i> {book}
                         </div>
                     ))}
             </div>
